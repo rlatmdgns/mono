@@ -1,0 +1,53 @@
+.ql-toolbar.ql-snow {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e8eb;
+  background: #f9fafb;
+}
+
+/* Tooltip */
+.ql-tooltip {
+  left: auto !important;
+}
+
+.ql-container.ql-snow {
+  border: 1px solid #e5e8eb;
+  border-top: none;
+  background: #f9fafb;
+  border-radius: 0 0 6px 6px;
+}
+
+.ql-editor.ql-blank::before {
+  font-style: normal;
+}
+
+.quill .mention {
+  padding: 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.quill .mention[data-blot-name='mention-company'] {
+  color: #ff7067;
+  background: #fff1f0;
+}
+
+.quill .mention[data-blot-name='mention-posting'] {
+  color: #f7a459;
+  background: #fff3e9;
+}
+
+.quill .mention[data-blot-name='mention-applicant'] {
+  color: #4bc482;
+  background: #e3faee;
+}
+
+.quill .mention[data-blot-name='mention-sender-name'] {
+  color: #5b97f5;
+  background: #eaf2ff;
+}
+
+.quill .mention[data-blot-name='mention-sender-email'] {
+  color: #6272ff;
+  background: #eff1ff;
+}

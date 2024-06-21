@@ -1,0 +1,166 @@
+import { LanguageSelect } from '@/entities/Application/types/languages'
+
+export const LANGUAGE_SELECT_ETC: LanguageSelect = [
+  {
+    name: '기타',
+  },
+  {
+    name: '한자능력검정 (한국어문학회)',
+    level: [
+      '특',
+      '특 II',
+      '1',
+      '2',
+      '3',
+      '3 II',
+      '4',
+      '4 II',
+      '5',
+      '5 II',
+      '6',
+      '6 II',
+      '7',
+      '7 II',
+      '8',
+    ],
+  },
+  {
+    name: '한자자격검정 (한자교육진흥회)',
+    level: ['사범', '1', '2', '3', '준3', '4', '준4', '5', '준5', '6', '7', '8'],
+  },
+  {
+    name: '실용한자 (한국외국어평가원)',
+  },
+  {
+    name: '한국한자검정 (한국평생교육평가원)',
+  },
+  {
+    name: '한자급수자격검정 (한자급수자격검정)',
+    level: [
+      '대사범',
+      '사범',
+      '1',
+      '준1',
+      '2',
+      '준2',
+      '3',
+      '준3',
+      '4',
+      '준4',
+      '5',
+      '준5',
+      '6',
+      '7',
+      '8',
+    ],
+  },
+  {
+    name: '한자능력자격검정 (한국한자한문능력개발원)',
+  },
+  {
+    name: '상공회의소 한자 (대한상공회의소)',
+    level: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
+  },
+  {
+    name: 'YBM 商務漢檢',
+  },
+  {
+    name: '베트남어 OPI (OPI VIETNAMESE)',
+  },
+  {
+    name: '호치민 인사대 베트남어 능력시험',
+  },
+  {
+    name: '인도네시아 OPI',
+  },
+  {
+    name: '하노이 국립외대 베트남어 능력시험',
+    level: ['A', 'B', 'C'],
+  },
+  {
+    name: '한자어능력검정 (한국정보관리협회)',
+    level: ['1', '2', '3', '4', '5', '6', '7', '8'],
+  },
+  {
+    name: '베트남어 OPIC',
+    level: [
+      'Advanced Low',
+      'intermediate High',
+      'intermediate Mid1',
+      'intermediate Mid2',
+      'intermediate Mid3',
+      'intermediate Low',
+      'Novice High',
+      'Novice Mid',
+      'Novice Low',
+    ],
+  },
+  {
+    name: '포르투갈어 OPI ',
+    level: [
+      'Superior',
+      'Advanced High',
+      'Advanced Mid',
+      'Advanced Low',
+      'intermediate High',
+      'intermediate Mid',
+      'intermediate Low',
+      'Novice High',
+      'Novice Mid',
+      'Novice Low',
+    ],
+  },
+  {
+    name: 'CELPE-Bras',
+    level: ['intermediate Low', 'intermediate High', 'Advanced Low', 'Advanced High'],
+  },
+  {
+    name: '하노이 문화대학교 베트남어 능력시험',
+    level: ['A', 'B', 'C'],
+  },
+  {
+    name: '터키어 OPI',
+    level: [
+      'Superior',
+      'Advanced High',
+      'Advanced Mid',
+      'Advanced Low',
+      'intermediate High',
+      'intermediate Mid',
+      'intermediate Low',
+      'Novice High',
+      'Novice Mid',
+      'Novice Low',
+    ],
+  },
+  {
+    name: '아랍어 OPI',
+    level: [
+      'Superior',
+      'Advanced High',
+      'Advanced Mid',
+      'Advanced Low',
+      'intermediate High',
+      'intermediate Mid',
+      'intermediate Low',
+      'Novice High',
+      'Novice Mid',
+      'Novice Low',
+    ],
+  },
+  {
+    name: '미얀마어 OPI',
+    level: [
+      'Superior',
+      'Advanced High',
+      'Advanced Mid',
+      'Advanced Low',
+      'intermediate High',
+      'intermediate Mid',
+      'intermediate Low',
+      'Novice High',
+      'Novice Mid',
+      'Novice Low',
+    ],
+  },
+]

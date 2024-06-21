@@ -1,0 +1,18 @@
+import styled from 'styled-components'
+
+export const Wrapper = styled.div``
+
+export const RadioWrap = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 4px;
+
+  > div {
+    flex: 0 0 100%;
+
+    label {
+      line-height: 16px;
+    }
+  }
+`

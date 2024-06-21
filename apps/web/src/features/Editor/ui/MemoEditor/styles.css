@@ -1,0 +1,143 @@
+.memo-editor {
+    height: calc(100% - 178px);
+}
+
+.memo-editor .ql-snow .ql-picker.ql-expanded .ql-picker-options {
+    right: 0;
+    border-radius: 6px;
+}
+
+.memo-editor .quill {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.memo-editor .ql-toolbar.ql-snow {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+    width: 310px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #e5e8eb;
+    border-radius: 6px;
+    background: #f9fafb;
+    transform: translate(-50%, 0);
+    box-shadow: 0 4px 40px 0 rgba(161, 176, 203, 0.2);
+}
+
+.memo-editor .ql-tooltip {
+    left: 0 !important;
+}
+
+.memo-editor .ql-toolbar.ql-snow > div {
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:nth-child(n + 2) {
+        margin-top: 8px;
+    }
+}
+
+.memo-editor .ql-toolbar.ql-snow .ql-formats {
+    position: relative;
+    margin: 0;
+}
+
+.memo-editor .ql-toolbar.ql-snow .ql-formats:before {
+    content: '';
+    display: inline-block;
+    float: left;
+    width: 1px;
+    height: 24px;
+    margin: 0 4px;
+    vertical-align: middle;
+    background: #e5e8eb;
+}
+
+.memo-editor .ql-toolbar.ql-snow .bottom-area .ql-formats:first-child:before {
+    display: none;
+}
+
+.memo-editor .ql-snow .ql-picker.ql-size {
+    width: 46px;
+}
+
+.memo-editor .ql-snow .ql-picker.ql-size .ql-picker-label[data-label]:not([data-label=''])::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6.66536 3.99935V13.3327C6.66536 13.7009 6.36689 13.9993 5.9987 13.9993C5.63051 13.9993 5.33203 13.7009 5.33203 13.3327V3.99935H1.9987C1.63051 3.99935 1.33203 3.70087 1.33203 3.33268C1.33203 2.96449 1.63051 2.66602 1.9987 2.66602H9.9987C10.3669 2.66602 10.6654 2.96449 10.6654 3.33268C10.6654 3.70087 10.3669 3.99935 9.9987 3.99935H6.66536ZM11.9987 9.33268V13.3327C11.9987 13.7009 11.7002 13.9993 11.332 13.9993C10.9638 13.9993 10.6654 13.7009 10.6654 13.3327V9.33268H9.33203C8.96384 9.33268 8.66536 9.0342 8.66536 8.66602C8.66536 8.29783 8.96384 7.99935 9.33203 7.99935H13.332C13.7002 7.99935 13.9987 8.29783 13.9987 8.66602C13.9987 9.0342 13.7002 9.33268 13.332 9.33268H11.9987Z" fill="%23333D4B"/></svg>');
+}
+
+.memo-editor .ql-snow .ql-picker.ql-header .ql-picker-item::before {
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: -0.12px;
+}
+
+.memo-editor .ql-snow .ql-picker.ql-expanded .ql-picker-options {
+    top: initial;
+    bottom: 100%;
+}
+
+.memo-editor .ql-container.ql-snow {
+    background-color: transparent;
+    border: none;
+    border-radius: 0 0 6px 6px;
+}
+
+.memo-editor .ql-editor {
+    height: 100%;
+    padding: 0 4px 50px;
+}
+
+.memo-editor .ql-editor.ql-blank::before {
+    left: 0;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #b0b8c1;
+    letter-spacing: -0.14px;
+}
+
+.memo-editor .quill .mention {
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.memo-editor .quill .mention[data-blot-name='mention-company'] {
+    color: #ff7067;
+    background: #fff1f0;
+}
+
+.memo-editor .quill .mention[data-blot-name='mention-posting'] {
+    color: #f7a459;
+    background: #fff3e9;
+}
+
+.memo-editor .quill .mention[data-blot-name='mention-applicant'] {
+    color: #4bc482;
+    background: #e3faee;
+}
+
+.memo-editor .quill .mention[data-blot-name='mention-sender-name'] {
+    color: #5b97f5;
+    background: #eaf2ff;
+}
+
+.memo-editor .quill .mention[data-blot-name='mention-sender-email'] {
+    color: #6272ff;
+    background: #eff1ff;
+}

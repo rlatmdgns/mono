@@ -1,0 +1,22 @@
+.inner-editor > .quill {
+  width: 100%;
+}
+
+.inner-editor > .quill .ql-container.ql-snow {
+  background-color: #fff;
+  border: 1px solid #e5e8eb;
+  border-radius: 6px;
+}
+
+.inner-editor > .quill .ql-container.ql-snow > div {
+  padding: 9px 12px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+
+.inner-editor > .quill > .ql-container > .ql-editor.ql-blank::before {
+  color: #b0b8c1;
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,4 @@
+export const DOCUMENT_TITLE_MAX_LENGTH = 100
+export const QUESTION_NAME_MAX_LENGTH = 200
+export const NOTE_MAX_LENGTH = 50
+export const TERMS_MAX_LENGTH = 2000

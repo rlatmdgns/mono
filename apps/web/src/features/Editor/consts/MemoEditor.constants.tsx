@@ -1,0 +1,17 @@
+export const formats = [
+  'size',
+  'bold',
+  'italic',
+  'underline',
+  'strike',
+  'code-block',
+  'color',
+  'background',
+  'list',
+  'bullet',
+  'indent',
+  'align',
+  'image',
+  'link',
+  'mention',
+]

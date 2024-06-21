@@ -1,0 +1,1 @@
+export { usePostings } from './usePostings'

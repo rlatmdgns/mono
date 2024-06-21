@@ -1,0 +1,15 @@
+export const CREATE_APPLICANT_TAG_FORM_SELECT_STYLES = {
+  controlBoxShadow: '0px 4px 20px 0px rgba(161, 176, 203, 0.40)',
+  valueContainerPaddingLeft: ' 8px',
+  inputHeight: '38px',
+  inputMargin: '0',
+  inputPadding: '0',
+  menuWidth: '100%',
+  menuListPadding: '0',
+  optionHeight: 'fit-content',
+  optionBorderRadius: '0',
+  optionColor: '#333D4B',
+  optionFontSize: '12px',
+  optionLineHeight: '16px',
+  optionPadding: '7px 12px',
+}

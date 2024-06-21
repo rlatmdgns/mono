@@ -19,16 +19,40 @@
 .DS_Store
 *.pem
 
-# debug
+# debugyarn node
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env*.local
 
 # vercel
 .vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# WebStorm
+/.idea
+
+### yarn ###
+# yarn berry
+# Zero Install
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Cypress
+cypress/results/*
+cypress/reports/*
+cypress/screenshots/*
+cypress/videos/*
+cypress/logs/*
+
+certificates

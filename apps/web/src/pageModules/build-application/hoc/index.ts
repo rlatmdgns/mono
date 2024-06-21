@@ -1,0 +1,1 @@
+export { withCommonBuildApplicationForm } from './withCommonBuildApplicationForm'

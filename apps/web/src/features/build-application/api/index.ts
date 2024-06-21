@@ -1,0 +1,1 @@
+export { createPostingApplicantForm } from './createPostingApplicantForm'

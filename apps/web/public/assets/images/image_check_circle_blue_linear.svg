@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="check_solid_16x16">
+<path id="Vector" d="M32 4C16.544 4 4 16.544 4 32C4 47.456 16.544 60 32 60C47.456 60 60 47.456 60 32C60 16.544 47.456 4 32 4ZM27.1071 45.2929C26.7166 45.6834 26.0834 45.6834 25.6929 45.2929L14.3754 33.9754C13.2844 32.8844 13.2844 31.1156 14.3754 30.0246C15.4653 28.9347 17.232 28.9335 18.3234 30.0219L26.4 38.076L45.664 18.812C46.7608 17.7152 48.54 17.7183 49.633 18.819C50.7205 19.9142 50.7173 21.6827 49.626 22.774L27.1071 45.2929Z" fill="url(#paint0_linear_4230_27408)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_4230_27408" x1="4.5" y1="4" x2="83" y2="121" gradientUnits="userSpaceOnUse">
+<stop stop-color="#468EFF"/>
+<stop offset="1" stop-color="#468EFF" stop-opacity="0.25"/>
+</linearGradient>
+</defs>
+</svg>
