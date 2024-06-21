@@ -1,10 +1,6 @@
 {
   "name": "with-berry",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -16,8 +12,12 @@
     "prettier": "^3.2.5",
     "turbo": "^2.0.4"
   },
-  "packageManager": "yarn@3.6.3",
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "npm@9.8.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
